@@ -23,12 +23,12 @@ function showNavigation() {
 }
 function showPerson() {
   let y = document.getElementById("person");
-  if (y.style.backgroundImage === "url(https://www.jamsadr.com/images/neutrals/mills-larry-900x1080.jpg)") {
+  if (y.style.backgroundImage === "url") {
     y.style.backgroundImage = "none";
     y.style.backgroundColor = "rgb(204, 21, 21)";
 } else if (y.style.backgroundImage === "none") {
-  y.style.backgroundImage = "url(https://www.jamsadr.com/images/neutrals/mills-larry-900x1080.jpg)"
+  y.style.backgroundImage = "url"
 } else {
-  y.style.backgroundImage = "none";
+  y.style.backgroundColor = "none";
 }
 }
