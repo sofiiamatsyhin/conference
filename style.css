@@ -176,19 +176,19 @@ Speakers
 
 .speaker1:hover {
   background-color: rgb(204, 21, 21);
- 
+  background-image: none;
 }
 .speaker2:hover {
   background-color: rgb(204, 21, 21);
-  
+  background-image: none;
 }
 .speaker3:hover {
   background-color: rgb(204, 21, 21);
- 
+  background-image: none;
 }
 .speaker4:hover {
   background-color: rgb(204, 21, 21);
-  
+  background-image: none;
 }
 */
 .speaker1:hover h3, .speaker1:hover p {
