@@ -190,7 +190,7 @@ Speakers
   background-color: rgb(204, 21, 21);
   background-image: none;
 }
-*/
+
 .speaker1:hover h3, .speaker1:hover p {
   display: inline;
 }
