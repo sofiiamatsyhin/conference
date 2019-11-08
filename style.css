@@ -77,14 +77,6 @@ Hamburger
   width: 40px;
 }
 
-
-
-
-
-
-
-
-
 /*
 Conference 
 */
@@ -260,7 +252,7 @@ Registry
   width: 260px;
   height: 60px;
   border-radius: 4px;
-  border: 1px rgb(204, 21, 21); solid;
+  border: 1px rgb(204, 21, 21) solid;
   font-size: 28px;
   color: black;
   padding: 25px;
@@ -297,12 +289,13 @@ Sponsors
   font-size: 40px;
 }
 .sponsors img {
-  height: 8vh;
-  width: 18vh;
-  padding: 10px;
+  height: 80px;
+  width: 140px;
+  padding: 8px;
 }
 .a {
   flex-wrap: wrap;
+  justify-content: center;
 }
 /*
 Contact
