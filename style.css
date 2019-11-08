@@ -1,0 +1,352 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+.flex {display: flex;}
+.flex-d-c {flex-direction: column;}
+/*
+ Header
+*/
+.header {
+  width: 100%;
+  height: 100vh;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(https://www.ycdiversity.org/wp-content/uploads/2017/10/2227_YouthCelebrateDiversity_Conference_04Feb2017.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: cover;
+  background-blend-mode: multiply;
+  background-color:#888;
+  padding-bottom: 30px;
+}
+.header_top {
+  background-color: rgb(41, 41, 41);
+  justify-content: space-around;
+}
+.logo {
+  color: rgb(204, 21, 21);
+  font-size: 40px;
+  font-family: monospace;
+  padding-left: 20px;
+}
+.nav {
+  flex-wrap: wrap;
+}
+
+
+.nav a{
+  text-decoration: none;
+  color: rgb(204, 21, 21);
+  padding: 10px; 
+}
+.nav a:hover{
+  background-color: rgb(204, 21, 21);
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+}  
+.header h1, p {
+  color: white;
+}
+.header h1 {
+  font-size: 50px;
+  font-family: monospace;
+  padding: 30px;
+}
+.header p {
+  font-size: 20px;
+  padding: 30px;
+}
+
+/*
+Hamburger
+*/
+.hamburger {
+  height: 40px;
+  width: 40px;
+}
+
+
+
+
+
+
+
+
+
+/*
+Conference 
+*/
+.conference {
+  background-color: rgb(204, 21, 21);
+}
+.conference div {
+  height: 600px;
+  align-items: center;
+  justify-content: space-around;
+}
+.conference h1 {
+  font-size: 60px;
+  color: white;
+  font-family: monospace;
+  border-bottom: 2px white solid;
+  padding-bottom: 20px;
+}
+.conference h3 {
+  font-size: 25px;
+  color: white;
+  font-family: monospace;
+  border:2px white solid;
+  padding: 20px;
+}
+.conference p {
+  font-size: 15px;
+  color: white;
+  text-align: center;
+  padding: 0 50px;
+}
+
+/*
+Speakers 
+*/
+.speakers {
+  background-color: rgb(41, 41, 41);
+}
+.all_speakers {
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+  margin: 0px ;
+  padding: 0px;
+}
+.speaker1 {
+  width: 50vh;
+  height: 70vh;
+  background-image: url(https://engineering.unl.edu/images/staff/Kayla_Person-small.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: cover;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 30px;
+}
+.speaker2 {
+  width: 50vh;
+  height: 70vh;
+  background-image: url(https://falkner-gutachten.de/wp-content/uploads/2015/03/Person.Ashley.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: cover;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 30px;
+}
+.speaker3 {
+  width: 50vh;
+  height: 70vh;
+  background-image: url(https://engineering.unl.edu/images/staff/Maggie_Schaefer.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: cover;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 30px;
+}
+.speaker4 {
+  width: 50vh;
+  height: 70vh;
+  background-image: url(https://www.jamsadr.com/images/neutrals/mills-larry-900x1080.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: cover;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 30px;
+}
+.speakers h3, .speakers p {
+  display:none;
+}
+.speaker1:hover {
+  background-color: rgb(204, 21, 21);
+  background-image: none;
+}
+.speaker2:hover {
+  background-color: rgb(204, 21, 21);
+  background-image: none;
+}
+.speaker3:hover {
+  background-color: rgb(204, 21, 21);
+  background-image: none;
+}
+.speaker4:hover {
+  background-color: rgb(204, 21, 21);
+  background-image: none;
+}
+.speaker1:hover h3, .speaker1:hover p {
+  display: inline;
+}
+.speaker2:hover h3, .speaker2:hover p {
+  display: inline;
+}
+.speaker3:hover h3, .speaker3:hover p {
+  display: inline;
+}
+.speaker4:hover h3, .speaker4:hover p {
+  display: inline;
+}
+/*
+Schedule 
+*/
+.schedule {
+  background-color: rgb(204, 21, 21);
+  justify-content: space-around;
+  align-items: center;
+}
+.schedule h1 {
+  font-size: 56px;
+  color: white;
+}
+.div_schedule {
+  font-size: 25px;
+  padding: 15px;
+  border-bottom: 1px white solid;
+}
+.div_schedule h4 {
+  padding-left: 15px;
+}
+.div_schedule_last {
+  border: none;
+  font-size: 25px;
+  padding: 15px;
+}
+.div_schedule_last h4 {
+  padding-left: 15px;
+}
+
+/*
+Registry 
+*/
+.registry {
+  background-color: rgb(41, 41, 41);
+}
+.registry {
+  height: 600px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.registry h1 {
+  color: white;
+  font-size: 60px;
+  margin: 20px;
+  text-align: center;
+}
+.input_text {
+  width: 260px;
+  height: 60px;
+  border-radius: 4px;
+  border: 1px rgb(204, 21, 21); solid;
+  font-size: 28px;
+  color: black;
+  padding: 25px;
+  margin: 20px;
+}
+.input_registry {
+  width: 260px;
+  height: 60px;
+  border-radius: 4px;
+  border: none;
+  font-size: 36px;
+  padding: 10px;
+  background-color: white;
+  color: rgb(204, 21, 21);
+  margin: 20px;
+}
+.input_registry:hover {
+  background-color: rgb(204, 21, 21);
+  color: white;
+}
+
+/*
+Sponsors 
+*/
+.sponsors {
+  background-color: rgb(204, 21, 21);
+  color: white;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 250px;
+}
+.sponsors h1 {
+  font-size: 40px;
+}
+.sponsors img {
+  height: 8vh;
+  width: 18vh;
+  padding: 10px;
+}
+.a {
+  flex-wrap: wrap;
+}
+/*
+Contact
+*/
+.contact {
+  background-color: rgb(41, 41, 41);
+  justify-content: center;
+  height: 300px;
+}
+.div_contact h1{
+  color: white;
+  font-size: 36px;
+  padding: 15px;
+  border-bottom: 1px white solid;
+  text-align: center;
+}
+.div_contact p {
+  font-size: 15px;
+  padding: 10px;
+  border-right: 1px white solid;
+  text-align: center;
+}
+.div_contact img {
+  margin: 8px 4px;
+  height: 6vh;
+  width: 6vh;
+}
+/*
+Footer 
+*/
+.footer {
+  background-color: rgb(204, 21, 21);
+  justify-content: center;
+  font-size: 3vh;
+  padding: 15px;
+}
+
+@media(max-width: 759px) {
+  .nav {
+    display: none;
+  }
+}
+@media(min-width: 759px) {
+  .hamburger {
+    display: none;
+  }
+}
