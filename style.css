@@ -42,8 +42,8 @@
 }
 .nav {
   flex-wrap: wrap;
+  display: none;
 }
-
 
 .nav a{
   text-decoration: none;
@@ -72,16 +72,32 @@
 /*
 Hamburger
 */
-.hamburger {
+.hamburger img {
   height: 40px;
   width: 40px;
 }
-
+.change {
+  display: block;
+  display: flex;
+  position: absolute;
+  background-color: #151515;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  border-top: 1px #222 solid;
+  padding: 20px;
+  color: rgb(204, 21, 21);
+  top: 60px;
+  font-size: 60px;
+  padding-top: 40px;
+  opacity:0.9;
+}
 /*
 Conference 
 */
 .conference {
   background-color: rgb(204, 21, 21);
+  justify-content: center;
 }
 .conference div {
   height: 600px;
@@ -112,6 +128,11 @@ Conference
 /*
 Speakers 
 */
+.changePerson {
+  background-image: none;
+  background-color: red;
+}
+
 .speakers {
   background-color: rgb(41, 41, 41);
 }
@@ -190,7 +211,6 @@ Speakers
   background-color: rgb(204, 21, 21);
   background-image: none;
 }
-
 .speaker1:hover h3, .speaker1:hover p {
   display: inline;
 }
@@ -217,7 +237,7 @@ Schedule
 }
 .div_schedule {
   font-size: 25px;
-  padding: 15px;
+  padding: 40px 15px;
   border-bottom: 1px white solid;
 }
 .div_schedule h4 {
@@ -226,7 +246,7 @@ Schedule
 .div_schedule_last {
   border: none;
   font-size: 25px;
-  padding: 15px;
+  padding: 40px 15px;
 }
 .div_schedule_last h4 {
   padding-left: 15px;
@@ -334,14 +354,20 @@ Footer
   font-size: 3vh;
   padding: 15px;
 }
+/*
+Media
+*/
 
-@media(max-width: 759px) {
-  .nav {
-    display: none;
+@media(min-width: 1100px) {
+  .div_conference {
+    width: 800px;
   }
 }
 @media(min-width: 759px) {
   .hamburger {
     display: none;
+  }
+  .nav {
+    display:flex;
   }
 }

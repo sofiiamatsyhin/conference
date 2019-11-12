@@ -10,22 +10,24 @@
   <header class="header flex flex-d-c">
     <div class="header_top container">
       <h3 class="logo">HOLY JS!</h3>
-      <nav class="nav flex" id="nav">
+      <nav class="nav flex" id="nav" >
         <a href="#conference">Conference</a>
         <a href="#speakers">Speakers</a>
         <a href="#schedule">Schedule</a>
         <a href="#registry">Registry</a>
         <a href="#sponsors">Sponsors</a>
         <a href="#contact">Contact</a>
-      </nav>  
-      <img onclick="showNavigation()" class="hamburger" src="https://www.stickpng.com/assets/images/588a64e7d06f6719692a2d11.png" alt="hamburger">
+      </nav>
+      <div onclick="showNavigation()"class="hamburger" id="hamburger">
+        <img  src="https://www.stickpng.com/assets/images/588a64e7d06f6719692a2d11.png" alt="hamburger">
+      </div>  
     </div>
       <h1>CONFERENCE FOR JAVASCRIPT DEVELOPERS</h1>
       <p>HolyJS is an international conference for JavaScript developers.</p>
   </header>
   <main>
     <section class="conference container" id="conference">
-      <div class="flex flex-d-c">
+      <div class="div_conference flex flex-d-c">
         <h1>CONFERENCE</h1>
         <h3>December 1st & 2nd, 2019 in Lviv, Ukraine</h3>
         <p>HolyJS gathers together over 600 JavaScript developers ready to discuss challenging questions with JavaScript experts from all over the world: there are always more than 20 technical talks and loads of communication with colleagues. We'll dwell on both frontend and backend, along with desktop and hardware.</p>
@@ -33,19 +35,19 @@
     </section>
     <section class="speakers" id="speakers">
       <div class="all_speakers flex">
-        <div onclick="showPerson1()" class="speaker1 flex flex-d-c" id="person1">
+        <div  class="speaker1 flex flex-d-c" id="person1">
           <h3>Victoria Mithal</h3>
           <p>Brand Voice</p> 
         </div>
-        <div onclick="showPerson2()" class="speaker2 flex flex-d-c" id="person2">
+        <div  class="speaker2  flex flex-d-c" id="person2">
           <h3>Ronaldo Robert</h3>
           <p>Design Systems</p>
         </div>
-        <div onclick="showPerson3()" class="speaker3 flex flex-d-c" id="person3">
+        <div  class="speaker3  flex flex-d-c" id="person3">
           <h3>Maggie Brock</h3>
           <p>Prototyping Tools</p>
         </div>
-        <div onclick="showPerson4()" class="speaker4 flex flex-d-c" id="person4">
+        <div  class="speaker4 flex flex-d-c" id="person4">
           <h3>Ionut Zamfir</h3>
           <p>Prototyping Tools</p> 
         </div>
